@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nolib nbdev",
+    "section": "",
+    "text": "This repo shows a minimal example of how to create a documentation site with the features of nbdev, without having to create a nbdev library."
+  },
+  {
+    "objectID": "index.html#how-this-repo-was-created",
+    "href": "index.html#how-this-repo-was-created",
+    "title": "nolib nbdev",
+    "section": "How This Repo Was Created",
+    "text": "How This Repo Was Created\nThis repo was created by using nbdev_new, but then deleting setup.py and the lib_path folder."
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nolib nbdev",
+    "section": "How To Use",
+    "text": "How To Use\nWe can use this project like any nbdev project!\n\nTo publish the docs:\nnbdev_proc_nbs && cd _proc && quarto publish\n\n\nTo test the docs:\nnbdev_test_nbs\n\n\nTo preview the docs:\nnbdev_preview\n\n\nDemo\nSee This page"
+  },
+  {
+    "objectID": "Tutorial/tutorial.html",
+    "href": "Tutorial/tutorial.html",
+    "title": "Tutorial",
+    "section": "",
+    "text": "You can use nbdev to render docs without creating a library if you like."
+  },
+  {
+    "objectID": "Tutorial/tutorial.html#using-show_doc",
+    "href": "Tutorial/tutorial.html#using-show_doc",
+    "title": "Tutorial",
+    "section": "Using show_doc",
+    "text": "Using show_doc\nnbdev.showdoc.show_doc offers a nice way to render documentation for APIs:\nHere is L from fastcore\n\nsource\n\nL\n\n L (items=None, *rest, use_list=False, match=None)\n\nBehaves like a list of items but can also index with list of indices or masks"
+  },
+  {
+    "objectID": "Tutorial/tutorial.html#auto-linking-with-backticks",
+    "href": "Tutorial/tutorial.html#auto-linking-with-backticks",
+    "title": "Tutorial",
+    "section": "Auto-linking with Backticks",
+    "text": "Auto-linking with Backticks\nOne cool thing about documentation functionality is the ability to link to other nbdev built projects with backtick notation. For example the following text will be automatically turned into a link: fastcore.foundation.L.cycle:\nNoticed how L.cycle is automatically linked to the correct documentation in the sentence above!"
+  },
+  {
+    "objectID": "Tutorial/tutorial.html#nbdev-directives",
+    "href": "Tutorial/tutorial.html#nbdev-directives",
+    "title": "Tutorial",
+    "section": "Nbdev Directives",
+    "text": "Nbdev Directives\nYou can use nbdev directives as well. For example you will not see the below code block, because it uses the #|hide directive:"
+  },
+  {
+    "objectID": "Tutorial/tutorial.html#unit-tests",
+    "href": "Tutorial/tutorial.html#unit-tests",
+    "title": "Tutorial",
+    "section": "Unit Tests",
+    "text": "Unit Tests\nYou can still leverage the unit testing framework of nbdev with nbdev_test even if you have no library!\n\nassert 'foo' != 'bar'\n\n\n!nbdev_test\n\nSuccess."
+  }
+]
