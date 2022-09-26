@@ -6,6 +6,8 @@ nolib nbdev
 This repo shows a minimal example of how to create a documentation site
 with the features of nbdev, without having to create a nbdev library.
 
+### This is a companion to [this official tutorial](https://nbdev.fast.ai/tutorials/docs_only.html).
+
 ## How This Repo Was Created
 
 This repo was created by using `nbdev_new`, and then following these
@@ -21,16 +23,17 @@ rm setup.py .github/workflows/test.yaml nbs/00_core.ipynb
     `settings.ini`):
 
 ``` bash
-rm -rf nolib_nbdev
+rm -rf <lib_path>
+```
 
 ## How To Use
 
 We can use this project like any nbdev project!
 
 #### To test the docs:
-    
-```bash
-nbdev_test_nbs
+
+``` bash
+nbdev_test
 ```
 
 #### To preview the docs:
@@ -39,6 +42,6 @@ nbdev_test_nbs
 nbdev_preview
 ```
 
-#### Demo
+## Demo
 
 See [This page]()
