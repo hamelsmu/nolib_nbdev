@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nolib_nbdev"
+  site-url: "https://hamelsmu.github.io/nolib_nbdev"
+  description: "a test repo"
+  repo-branch: main
+  repo-url: "https://github.com/hamelsmu/nolib_nbdev"
