@@ -8,22 +8,28 @@ with the features of nbdev, without having to create a nbdev library.
 
 ## How This Repo Was Created
 
-This repo was created by using `nbdev_new`, but then deleting `setup.py`
-and the `lib_path` folder.
+This repo was created by using `nbdev_new`, and then following these
+steps:
+
+1.  Remove library files
+
+``` bash
+rm setup.py .github/workflows/test.yaml nbs/00_core.ipynb
+```
+
+2.  Remove your library folder (this will be the `lib_path` field in
+    `settings.ini`):
+
+``` bash
+rm -rf nolib_nbdev
 
 ## How To Use
 
 We can use this project like any nbdev project!
 
-#### To publish the docs:
-
-``` bash
-nbdev_proc_nbs && cd _proc && quarto publish
-```
-
 #### To test the docs:
-
-``` bash
+    
+```bash
 nbdev_test_nbs
 ```
 
