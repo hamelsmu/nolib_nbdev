@@ -2,6 +2,9 @@ website:
   sidebar:
     contents:
       - index.ipynb
+      - nbdev.yml
+      - sidebar.yml
+      - styles.css
       - section: Tutorial
         contents:
           - Tutorial/Tutorial.ipynb
